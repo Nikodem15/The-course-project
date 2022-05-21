@@ -1,0 +1,193 @@
+/******************Tag Selectors******************/
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+body {
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+  height: 100%
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+/********1em=16px*********/
+/*percentage and em units are inherit measures which are adding up*/
+/* while REM ignores the initial values and does not add up*/
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+em {
+  color: #F4BFBF;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: medium;
+  line-height: 2;
+}
+
+hr {
+border-style: none none dotted none;
+border-color: #EAF6F6;
+height: 10px;
+border-width: 10PX;
+width: 4%;
+margin: 100px auto;
+}
+
+footer {
+  padding-top: 30px;
+  color: #EAF6F6;
+}
+
+/********************boxes***************************/
+.middlebox{
+  margin: auto;
+  padding: 50px;
+}
+.intopcontainer {
+  padding-top: 60px;
+  display: inline-block;
+}
+
+.top-box {
+  background-color: #FFF6EA;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.footfoot{
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #66BFBF
+}
+
+/******************Class Selectors******************/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottomcloud {
+  left: 250px;
+  overflow-x: auto;
+}
+
+.cloud {
+  position: absolute;
+}
+
+.chillies{
+  width: 25%;
+  float: right;
+  margin-bottom: 1rem;
+}
+
+.h2village {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mountainbox {
+  display: block;
+}
+
+.mountain {
+  background-color: inherit;
+
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+
+
+.link{
+  margin: auto 5% auto 5%;
+
+}
+
+.intro
+{
+  width: 30%;
+  margin: auto;
+}
+
+/******************ID Selectors******************/
+#gif {
+  width: 25%;
+  text-align: center;
+  float: left;
+  margin-right: 30px;
+}
+
+#pp{
+  margin: 40px auto 60px;
+  width: 40%;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
